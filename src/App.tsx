@@ -19,7 +19,7 @@ function App() {
      <GenreList />
     </GridItem>
    </Show>
-   <GridItem area="main">
+   <GridItem area="main" paddingX={'10px'}>
     <GameGrid />
    </GridItem>
   </Grid>
