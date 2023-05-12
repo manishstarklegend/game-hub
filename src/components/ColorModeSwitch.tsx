@@ -10,7 +10,7 @@ const ColorModeSwitch = () => {
     isChecked={colorMode == 'dark'}
     onChange={toggleColorMode}
    />
-   <Text>{colorMode.toLocaleLowerCase()}</Text>
+   <Text whiteSpace={'nowrap'}>{colorMode.toLocaleLowerCase()}</Text>
   </HStack>
  );
 };
